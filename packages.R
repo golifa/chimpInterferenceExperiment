@@ -1,4 +1,4 @@
-# Install required packages for the analysis
+# Required packages for the analysis in R
 required_packages <- c(
   "tidyverse",
   "dplyr",
