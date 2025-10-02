@@ -33,6 +33,24 @@ root/
 
 ---
 
+## Stimuli Sources
+
+### Human Composite Stimuli
+
+The human face stimuli were sourced from Rossion's laboratory database, comprising 36 composite faces (21 male and 15 female) [Rossion 2013](https://face-categorization-lab.webnode.page/resources/).
+
+### Chimpanzee Composite Stimuli
+
+The chimpanzee face stimuli were created from photographs sourced from [Mollison and Goodall (2005)](https://www.jamesmollison.com/shop/p/james-other-apes-1). Six chimpanzee identities generated 36 aligned and 36 misaligned composite faces. Preprocessing included: <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Cropping: To an oval shape <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Grayscale Conversion: Standardisation of color <br>
+&nbsp;&nbsp;&nbsp;&nbsp;Resizing: 350 × 350 pixels in BMP format <br>
+
+Aligned composites recombined tops and bottoms of different Chimpanzees with a ~2% gap. Misaligned composites shifted the bottom half horizontally by ~32% (112 pixels), disrupting spatial configuration while preserving featural information.
+
+---
+
 ## Setup Instructions
 
 ### Python
