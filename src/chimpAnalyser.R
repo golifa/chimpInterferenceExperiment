@@ -18,7 +18,7 @@ print(paste("RT SD cutoff:", RT_SD_CUTOFF))
 print("========================================")
 
 # READ FILES ----
-data_directory <- "C:/Users/kemar/Desktop/Work/Dobs Lab/Thesis/ChimpExperiment/results"
+data_directory <- "CHANGE TO PATH"
 csv_files <- list.files(data_directory, pattern = "*_results.csv", full.names = TRUE)
 
 print(paste("Found", length(csv_files), "data files"))
@@ -539,4 +539,5 @@ if(!is.null(human_rt_test)) {
 }
 if(!is.null(monkey_rt_test)) {
   print(paste("Monkey RT test p-value:", round(monkey_rt_test$p.value, 4)))
+
 }
