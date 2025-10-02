@@ -1,2 +1,4 @@
+# Python dependencies for experiment
 psychopy>=2024.2.5
 pandas>=2.2.3
+
